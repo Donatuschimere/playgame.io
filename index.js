@@ -10,10 +10,10 @@ image1.setAttribute("src", randomImagesrc)
 
 
 // FOR THE SECOND IMAGE ELEMENT
-// var randomDiceImage = "dice" + randomNumber2 + ".png"
-// var randomImagesrc = "images/" + randomDiceImage
-// var image2 = document.querySelectorAll("img")[1]
-// image2.setAttribute("src", randomImagesrc)
+var randomDiceImage = "dice" + randomNumber2 + ".png"
+var randomImagesrc = "images/" + randomDiceImage
+var image2 = document.querySelectorAll("img")[1]
+image2.setAttribute("src", randomImagesrc)
 
 
 if (randomNumber1 > randomNumber2) {
